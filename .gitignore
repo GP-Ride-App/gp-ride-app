@@ -1,0 +1,12 @@
+# Nested app repos (each has its own GitHub repo)
+gp-ride-backend/
+gp-ride-mobile/
+gp-ride-driver-mobile/
+gp-ride-admin/
+node_modules/
+.tmp/
+.DS_Store
+BROKEN
+*.log
+.env
+.env.*

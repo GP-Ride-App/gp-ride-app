@@ -21,6 +21,8 @@ See each app’s `README.md` for `npm install` and `npm start`.
 
 Prerequisites: **Node.js 20+**, **PostgreSQL 14+**, and **npm**.
 
+**July 30 production hosting** (GCP billing, Railway API + Postgres + Redis, Maps key): see [`gp-ride-backend/docs/PRODUCTION_HOSTING.md`](gp-ride-backend/docs/PRODUCTION_HOSTING.md) in the backend repo.
+
 1. **Create a database** (example name: `gp_ride`).
 
 2. **Configure environment**

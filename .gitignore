@@ -10,3 +10,6 @@ BROKEN
 *.log
 .env
 .env.*
+
+# Local smoke credentials / scratch
+.local/

@@ -5,8 +5,18 @@ Monorepo for **GP Ride**: a ride-hailing platform with **Ride Now, Pay Later (RN
 This repository currently contains:
 
 - **`gp-ride-backend`** — NestJS API, PostgreSQL via Prisma, JWT auth (access + refresh), role-based access (passenger, driver, admin).
+- **`gp-ride-admin`** — Ops console (Next.js) at `admin.getgpride.com`.
+- **`gp-ride-web`** — Public marketing site (Next.js) at `getgpride.com`.
 - **`gp-ride-mobile`** — Passenger Expo app (SDK 54).
 - **`gp-ride-driver-mobile`** — Driver Expo app (separate install, bundle ID, Metro port **8082**).
+
+### Web apps
+
+| App | Directory | Local port (suggested) | Production |
+|-----|-----------|------------------------|------------|
+| Marketing | `gp-ride-web` | 3002 | `https://getgpride.com` |
+| Admin | `gp-ride-admin` | 3001 | `https://admin.getgpride.com` |
+| API | `gp-ride-backend` | 3000 | `https://api.getgpride.com/v1` |
 
 ### Mobile apps
 
